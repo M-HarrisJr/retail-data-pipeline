@@ -1,0 +1,6 @@
+date,store,product,region,sales,quantity
+2024-01-01,Store_A,Laptop,East,1200,2
+2024-01-01,Store_B,Phone,West,800,4
+2024-01-02,Store_A,Tablet,East,600,3
+2024-01-02,Store_C,Laptop,South,2400,4
+2024-01-03,Store_B,Headphones,West,200,5
