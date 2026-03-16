@@ -13,6 +13,21 @@ SQL
 Pandas  
 Git/GitHub  
 
+## Pipeline Architecture
+
+Raw retail sales data is ingested and processed through a simple ETL workflow.
+
+Data Flow:
+
+Raw Data → Python ETL Pipeline → Aggregated Datasets → Analytics Output
+
+The pipeline performs:
+
+• Data ingestion  
+• Data cleaning and validation  
+• Aggregation and transformation  
+• Generation of analytics-ready datasets
+
 ## Project Structure
 
 retail-data-pipeline
@@ -49,3 +64,12 @@ pip install pandas
 Run the ETL script:
 
 python scripts/etl_pipeline.py
+
+## Future Improvements
+
+Possible extensions for this pipeline include:
+
+• Loading data into a cloud data warehouse  
+• Scheduling pipeline runs using Airflow or cron  
+• Adding automated data validation checks  
+• Visualizing results using a BI dashboard
